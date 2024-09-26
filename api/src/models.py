@@ -9,6 +9,7 @@ class VerseType(Enum):
     comment = 'comment'
     response = 'response'
     oration = 'oration'
+    antiphon = 'antiphon'
 
 class Verse(BaseModel):
     type: VerseType
